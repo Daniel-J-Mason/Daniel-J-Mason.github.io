@@ -55,10 +55,10 @@ additional_links:
 #   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-  You may be wondering why your developer applicant has just linked you to a resume titled "Senior Mechanical Engineer", welcome to my journey into software development.
+  You may be wondering why your developer applicant has just linked you to a site titled "Senior Mechanical Engineer", welcome to my journey into software development.
   If you would like to read more about my story see the "A Little More About Me" section.
   
-  I bring with me years of lessons learned in a technical field, as well as the skills I have developed in software engineering along the way. 
+  I bring with me years of lessons learned as a senior engineer in ambulance manufacturing, as well as the technical skills I have developed in software engineering along the way. 
   Please feel free to review my projects, and contact me if you feel I would be a good fit for your company.
 
 
@@ -88,14 +88,16 @@ content:
 #            icon: fab fa-github
 #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          A common issue many companies fall into is haphazard file structure accumulated over years of changes,
+          A common issue many companies fall into is haphazard file structure accumulated over that years,
           the REST desktop application was the solution to this issue.
         description: | # this will include new lines to allow paragraphs
           ![alt text](images/rest-demo.png "REST")
+          
           REST provides a central tool to quickly locate engineering
-          related files. This software currently saves about 30 min per Engineer/ per day.
+          related files.
           This project began as a series of locator scripts written in python as command-line tool-suite. After picking up Java, that initial idea was rolled into this desktop application.
           It has been fully refactored thrice over the past few years.
+          This software currently saves about 30 min per Engineer/ per day.
   - title: Experience
     layout: list
     content:
@@ -125,16 +127,17 @@ content:
       I graduated from UCF with a bachelors degree in Mechanical Engineering in the fall of 2017. I had spent my most of my undergraduate spare time working with the
       UCF Society of Automotive Engineering designing off-road race cars, working primarily as a machinist. This experience quickly launched me into the automotive world of ambulance manufacturing.
 
-      Just around my third year working there as a REV engineer, I started to realize I could greatly improve my quality and efficiency by scripting portions of my workload. It started off small,
-      with some messy Python scripts, and within a year I had graduated to full blown comprehensive desktop applications written in Java. I found my true passion in software development, in which I have relentlessly
+      Just around my third year working as a REV engineer, I started to realize I could greatly improve my quality and efficiency by scripting portions of my workload. It started off small,
+      with some messy Python scripts, and within a year I had graduated to comprehensive desktop applications written in Java. I found my true passion in software development, in which I have relentlessly
       been expanding my skills these past three years. 
 
-      This past year I have graduated to from Junior to Senior engineer on my team. I have found many of the less I have learned along this journey strongly support my candidacy for software development.  
+      More recently have been promoted to senior engineer. I have found many of the lessons I have learned along this journey strongly support my candidacy for software development.  
       I have over 300 unique designs, totaling more than 600 ambulances that I have been responsible for. Working in a production
-      environment requires skills such as time management, stress management, ability to effectively communicate with both technical 
+      environment has allowed me develop many skills such as time management, stress management, ability to effectively communicate with both technical 
       and non-technical colleagues, the ability to teach as well as learn, and the ability to take
       on the responsibility for reviewing and releasing packages to production.
-
+      
+      FIND SOME CLOSING REMARKS
 #      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 #
 #      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
@@ -146,6 +149,7 @@ footer_show_references: true
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
