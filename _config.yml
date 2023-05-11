@@ -102,7 +102,7 @@ content:
           The REST desktop application was the solution to this issue, providing a central tool to quickly located engineering
           related files. This software currently saves about 30 min per Engineer/ per day.
         description: | # this will include new lines to allow paragraphs
-          ![alt text](/image/rest-demo.png "REST")
+          ![alt text](image/rest-demo.png "REST")
           This project began as a series of locator scripts written in python as command-line tool-suite. After picking up Java, that initial idea was rolled into this desktop application.
           It has been fully refactored thrice over the past few years.
   - title: Experience
