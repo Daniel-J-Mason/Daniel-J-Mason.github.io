@@ -88,15 +88,18 @@ content:
 #            icon: fab fa-github
 #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          A common issue many companies fall into is haphazard file structure accumulated over the years,
+          Many companies fall into haphazard file structures that accumulate over the years,
           the REST desktop application was the solution to this issue.
         description: | # this will include new lines to allow paragraphs
           ![alt text](images/rest-demo.png "REST")
           
           REST provides a central tool to quickly locate engineering
           related files.
+          
           This project began as a series of locator scripts written in python as command-line tool-suite. After picking up Java, that initial idea was rolled into this desktop application.
           It has been fully refactored thrice over the past few years.
+          This tool includes functionality to find drawings, parts, and trucks. It can query a pseudo-database of trucks to find units containing multiple parts.
+          It has autocomplete functionality for all units so units can be found based on number or partial name matches.
           This software currently saves about 30 min per Engineer/ per day.
   - title: Experience
     layout: list
