@@ -56,7 +56,10 @@ additional_links:
 about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
   You may be wondering why your developer applicant has just linked you to a resume titled "Senior Mechanical Engineer", welcome to my journey into software development.
-  If you would like to read more about my store see the "A Little More About Me" section.
+  If you would like to read more about my story see the "A Little More About Me" section.
+  
+    I bring with me years of lessons learned in a technical field, as well as the skills I have developed in software engineering along the way. 
+  Please feel free to review my projects, and contact me if you feel I would be a good fit for your company.
 
 
 
@@ -131,9 +134,6 @@ content:
       environment requires skills such as time management, stress management, ability to effectively communicate with both technical 
       and non-technical colleagues, the ability to teach as well as learn, and the ability to take
       on the responsibility for reviewing and releasing packages to production.
-
-        I bring with me years of lessons learned in a technical field, as well as the skills I have developed in software engineering along the way. 
-      Please feel free to review my projects, and contact me if you feel I would be a good fit for your company.
 
 #      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 #
