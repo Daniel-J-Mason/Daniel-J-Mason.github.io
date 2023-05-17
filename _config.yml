@@ -100,27 +100,11 @@ content:
           This project began as a series of locator scripts written in python as command-line tool-suite. After picking up Java, that initial idea was rolled into this desktop application.
           It has been fully refactored thrice over the past few years. It currently saves 30 min per Engineer/ per day.
           
-          Features include:
-            
-            ●Light/Dark mode
-            
-            ●Ability to find drawing, dxf, and truck files
-            
-            ●Ability to open files directly OR open file location
-            
-            ●Autocomplete functionality to find truck by name or number in case of partial information
-            
-            ●Queryable pseudo-database to find units that contain part number(s) (currently unavailable from company parts database)
+          Features include: Light/Dark mode; Ability to find drawing, dxf, and truck files; Ability to open files directly OR open file location;
+          Autocomplete functionality to find truck by name or number in case of partial information ;
+          Queryable pseudo-database to find units that contain part number(s) (currently unavailable from company parts database)
           
-          Technologies utilized:
-            
-            ●JavaFX
-            
-            ●SceneBuilder
-            
-            ●Maven
-            
-            ●Launch4j
+          Technologies utilized: JavaFX; SceneBuilder; Maven; Launch4j
       - layout: right
         border: weak  # Value of `weak` will display a weak border below this item. # Any
         # other value (or no value) means no border will be displayed
