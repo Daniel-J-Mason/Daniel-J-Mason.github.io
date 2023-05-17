@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 favicon: images/favicon.png
 
@@ -35,10 +35,10 @@ linkedin_username: daniel-mason-20138b114
 #googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-#additional_links:
-#- title: Link name
+additional_links:
+- title: Test Link
 #  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: Link url (eg. https://google.com)
+  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -97,10 +97,63 @@ content:
           related files.
           
           This project began as a series of locator scripts written in python as command-line tool-suite. After picking up Java, that initial idea was rolled into this desktop application.
-          It has been fully refactored thrice over the past few years.
-          This tool includes functionality to find drawings, parts, and trucks. It can query a pseudo-database of trucks to find units containing multiple parts.
-          It has autocomplete functionality for all units so units can be found based on number or partial name matches.
-          This software currently saves about 30 min per Engineer/ per day.
+          It has been fully refactored thrice over the past few years. It currently saves 30 min per Engineer/ per day.
+          
+          Features include:
+            ●Light/Dark mode
+            ●Ability to find drawing, dxf, and truck files
+            ●Ability to open files directly OR open file location
+            ●Autocomplete functionality to find truck by name or number in case of partial information
+            ●Queryable pseudo-database to find units that contain part number(s) (currently unavailable from company parts database)
+          
+          Technologies utilized:
+            ●JavaFX
+            ●SceneBuilder
+            ●Maven
+            ●Launch4j
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Elite Dangerous Pilots Network (In-progress)
+        link: https://github.com/orgs/ed-pilots-network/
+        link_text: https://github.com/orgs/ed-pilots-network/
+        additional_links:
+          - title: Game website
+            url: https://www.elitedangerous.com/
+        #        additional_links:
+        #          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #            icon: fab fa-github
+        #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #            icon: fab fa-github
+        #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          With the retirement of EDDB.io a void in the Elite Dangerous 3rd Party tooling network has been created. EDPN is a 
+          FOSS successor to that project.
+        description: | # this will include new lines to allow paragraphs
+          
+          This is a collaborative effort from the community and is a full stack microservice orchestration. This website 
+          is proposed to provide data to people playing Elite Dangerous. This service works in tandem with the Elite Dangerous
+          Data Network (EDDN), an open-source extension to in game plugins that broadcasts all player discoveries through a ZeroMQ server.
+          I am one of (currently) 3 core developers for the backend, focusing on schema orchestration and REST API implementation.
+          
+          Proposed features include:
+          ●Trade route plotting
+          ●Finders for systems, stations, bodies based on: material, commodity, faction, outfitting
+          ●Route mapping through out the simulated universe
+          ●Celestial body information
+          
+          Technologies utilized:
+          ●Spring Boot
+          ●Maven
+          ●Kafka
+          ●Postgres
+          ●Mybatis
+          ●Liquibase
+          ●Docker
+          
+          
+
   - title: Experience
     layout: list
     content:
@@ -112,31 +165,31 @@ content:
         quote: >
           Vehicles For Life
         description: | # this will include new lines to allow paragraphs
-          ● Proposed, designed, and implemented a custom JavaFX desktop application for the
+          ●Proposed, designed, and implemented a custom JavaFX desktop application for the
           engineering department to compile all engineering-related files on the network to be
           searched in one place. Additional features: ability to find all trucks containing parts, part
           family tables, search histories.
           
-          ● Created custom quality-check python scripts to eliminate transcription errors.
+          ●Created custom quality-check python scripts to eliminate transcription errors.
           
-          ● Designed over 300 ambulance exteriors across six independent brands for body
+          ●Designed over 300 ambulance exteriors across six independent brands for body
           fabrication in a fast-paced environment.
           
-          ● Peer reviewed final release packages to ensure design quality prior to production start.
+          ●Peer reviewed final release packages to ensure design quality prior to production start.
           
-          ● Provided mentorship to several junior engineers through technical guidance, peer
+          ●Provided mentorship to several junior engineers through technical guidance, peer
           review, and hands-on training.
           
-          ● Collaborated with sales, production, and other engineering departments to allow for
+          ●Collaborated with sales, production, and other engineering departments to allow for
           proper planning and design.
           
-          ● Provided solutions to critical production issues through hands-on analysis of
+          ●Provided solutions to critical production issues through hands-on analysis of
           ambulances at all stages of the production line.
           
-          ● Contributed to improvements on ISO controlled engineering documents such as review
+          ●Contributed to improvements on ISO controlled engineering documents such as review
           documentation and brand design standards.
           
-          ● Released several Engineering Change Notices to reduce annual cost and improve on
+          ●Released several Engineering Change Notices to reduce annual cost and improve on
           brand design.
   - title: Education
     layout: list
@@ -144,7 +197,7 @@ content:
       - layout: top-right
         title: University of Central Florida
         sub_title: Bachelor of Science Mechanical Engineering
-        caption: Date Range (eg. 2013 - 2017)
+        caption: 2013 - 2017
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
@@ -163,8 +216,7 @@ content:
       Working in a production environment has allowed me develop many skills such as time management, stress management, ability to effectively communicate with both technical 
       and non-technical colleagues, the ability to teach as well as learn, and the ability to take
       on the responsibility for reviewing and releasing packages to production.
-      
-      FIND SOME CLOSING REMARKS
+
 #      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 #
 #      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
