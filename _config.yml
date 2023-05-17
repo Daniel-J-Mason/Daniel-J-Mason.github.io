@@ -199,13 +199,13 @@ content:
 #        quote: >
 #          Integrity, scholarship, community, creativity, and excellence
         description: | # this will include new lines to allow paragraphs
-          Society of Automotive Engineering - BAJA 
+          <b>Society of Automotive Engineering - BAJA</b>
           
           Member of BAJA SAE, a team dedicated to designing, manufacturing, and racing off-road vehicles in the annual
           internation competitions with other universities. I was a core member of this team from October 2015 up until I
           graduated.
           
-          Senior Design Project - NASA
+          <b>Senior Design Project - NASA</b>
           
           Designed pneumatic transportation system for NASA's Regolith Excavation challenge. System was designed to collect
           regolith from collection bins and deliver it back into the excavation area for redistribution.
