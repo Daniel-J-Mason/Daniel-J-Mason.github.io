@@ -100,7 +100,7 @@ content:
           related files.
           
           This project began as a series of locator scripts written in python as command-line tool-suite. After picking up Java, that initial idea was rolled into this desktop application.
-          It has been fully refactored thrice over the past few years. It currently saves 30 min per Engineer/ per day.
+          It has been fully refactored thrice over the past few years. It currently saves our team about 20 hours per week.
           
           <mark>Features include:</mark>
           
