@@ -137,7 +137,9 @@ content:
           This is a collaborative effort from the community and is a full stack microservice orchestration. This website 
           is proposed to provide data to people playing Elite Dangerous. This service works in tandem with the Elite Dangerous
           Data Network (EDDN), an open-source extension to in game plugins that broadcasts all player discoveries through a ZeroMQ server.
-          I am one of (currently) 3 core developers for the backend, focusing on schema orchestration and REST API implementation.
+          A Kafka buffer is used to collect all incoming messages from this server into topics based on their schema. 
+          They are picked up by processors to be inserted into our database. This information is then presented through our REST API. 
+          I am one of the core developers for the backend, focusing on schema orchestration and REST API implementation.
           
           <mark>Proposed features include:</mark>
           
@@ -194,10 +196,10 @@ content:
         title: University of Central Florida
         sub_title: Bachelor of Science Mechanical Engineering
         caption: 2013 - 2017
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+#        quote: >
+#          Integrity, scholarship, community, creativity, and excellence
+#        description: | # this will include new lines to allow paragraphs
+#          Description of qualification
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
