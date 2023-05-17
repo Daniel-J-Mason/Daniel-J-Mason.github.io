@@ -196,8 +196,8 @@ content:
         title: University of Central Florida
         sub_title: Bachelor of Science Mechanical Engineering
         caption: 2013 - 2017
-#        quote: >
-#          Integrity, scholarship, community, creativity, and excellence
+        quote: >
+          "Integrity, scholarship, community, creativity, and excellence"
         description: | # this will include new lines to allow paragraphs
           <b>Society of Automotive Engineering - BAJA</b>
           
