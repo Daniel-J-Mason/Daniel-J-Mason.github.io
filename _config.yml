@@ -38,7 +38,7 @@ linkedin_username: daniel-mason-20138b114
 additional_links:
 - title: My Resume
 #  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  icon: fa-file-pdf
+  icon: fab fa-file-pdf
   url: www.all-thing.com/assets/resume.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
