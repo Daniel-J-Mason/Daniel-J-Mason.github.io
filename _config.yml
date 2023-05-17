@@ -198,8 +198,13 @@ content:
         caption: 2013 - 2017
 #        quote: >
 #          Integrity, scholarship, community, creativity, and excellence
-#        description: | # this will include new lines to allow paragraphs
-#          Description of qualification
+        description: | # this will include new lines to allow paragraphs
+          Society of Automotive Engineering - BAJA 
+          
+          Member of BAJA SAE, a team dedicated to designing, manufacturing, and racing off-road vehicles in the annual
+          internation competitions with other universities. I was a core member of this team from October 2015 up until I
+          graduated.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
