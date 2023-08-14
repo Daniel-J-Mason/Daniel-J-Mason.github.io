@@ -161,7 +161,7 @@ content:
           
           <mark>Technologies utilized:</mark>
           
-          Spring Boot; Maven; Kafka; Postgres; Mybatis; Liquibase; Docker
+          Spring; Gradle; Kafka; PostgreSQL; Mybatis; Liquibase; Github; Docker
           
           
 
