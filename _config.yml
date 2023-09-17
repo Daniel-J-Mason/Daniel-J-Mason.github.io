@@ -9,8 +9,7 @@ version: 2
 # Personal info
 name: Daniel Mason
 title: |
-  <p>Junior Software Engineer<\p>
-  <p>Senior Mechanical Engineer<\p>
+  <p>Junior Software Engineer<br>Senior Mechanical Engineer<\p>
 email: daniel.j.msn@gmail.com
 # email_title: Email (Email title override)
 phone: (813)-528-6550
