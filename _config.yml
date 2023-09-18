@@ -58,11 +58,10 @@ additional_links:
 #   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-  You may be wondering why your developer applicant has just linked you to a site titled "Senior Mechanical Engineer", welcome to my journey into software development.
-  If you would like to read more about my story see the "A Little More About Me" section.
-  
-  I bring with me years of lessons learned as an engineer in ambulance manufacturing, as well as the technical skills I have developed in software engineering along the way. 
-  Please feel free to review my projects, and contact me if you feel I would be a good fit for your company.
+  Eager Java developer with a passion for backend development and Linux. I currently have 3 years of experience in Software
+  Development and 5 years of experience in Mechanical Engineering. I have used various languages to design and develop
+  desktop and web applications across multiple APIs, frameworks, and databases. I am seeking to transition into full time
+  software development and am confident that my experience will lead to meaningful contributions within your organization.
 
 
 
@@ -271,20 +270,20 @@ content:
           Designed pneumatic transportation system for NASA's Regolith Excavation challenge. System was designed to collect
           regolith from collection bins and deliver it back into the excavation area for redistribution.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      I graduated from UCF with a bachelors degree in Mechanical Engineering in the fall of 2017. I had spent my most of my undergraduate spare time working with the
-      UCF Society of Automotive Engineering designing off-road race cars, working primarily as a machinist. This experience quickly launched me into the automotive world of ambulance manufacturing.
-
-      Just around my third year working as a REV engineer, I started to realize I could improve my quality and efficiency by scripting portions of my workload. It started off small,
-      with some messy Python scripts, and within a year I had graduated to comprehensive desktop applications written in Java. I found my true passion in software development, in which I have relentlessly
-      been expanding my skills these past three years. 
-
-      More recently I have been promoted to senior engineer. I have found many of the lessons I have learned along this journey strongly support my candidacy for software development.  
-      Working in a production environment has allowed me develop many skills such as time management, stress management, ability to effectively communicate with both technical 
-      and non-technical colleagues, the ability to teach as well as learn, and the ability to take
-      on the responsibility for reviewing and releasing packages to production.
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      I graduated from UCF with a bachelors degree in Mechanical Engineering in the fall of 2017. I had spent my most of my undergraduate spare time working with the
+#      UCF Society of Automotive Engineering designing off-road race cars, working primarily as a machinist. This experience quickly launched me into the automotive world of ambulance manufacturing.
+#
+#      Just around my third year working as a REV engineer, I started to realize I could improve my quality and efficiency by scripting portions of my workload. It started off small,
+#      with some messy Python scripts, and within a year I had graduated to comprehensive desktop applications written in Java. I found my true passion in software development, in which I have relentlessly
+#      been expanding my skills these past three years.
+#
+#      More recently I have been promoted to senior engineer. I have found many of the lessons I have learned along this journey strongly support my candidacy for software development.
+#      Working in a production environment has allowed me develop many skills such as time management, stress management, ability to effectively communicate with both technical
+#      and non-technical colleagues, the ability to teach as well as learn, and the ability to take
+#      on the responsibility for reviewing and releasing packages to production.
 
 #      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 #
