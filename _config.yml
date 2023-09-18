@@ -162,6 +162,7 @@ content:
           ●Ability to compare excel to excel
           
           ●Built in hyperlinks to open any existing drawings
+          
           <mark>Technologies utilized:</mark>
           
           JavaFX; SceneBuilder; Maven; Launch4j
