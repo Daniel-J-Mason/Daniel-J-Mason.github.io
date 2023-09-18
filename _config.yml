@@ -223,27 +223,26 @@ content:
         quote: >
           Vehicles For Life
         description: | # this will include new lines to allow paragraphs
-          • Lead responsible for the continued design and development of the ambulance Wheeled Coach brand.
+          ●Lead responsible for the continued design and development of the ambulance Wheeled Coach brand.
           
-          • Train/mentor several junior engineers through technical guidance, peer review, and hands-on training.
+          ●Train/mentor several junior engineers through technical guidance, peer review, and hands-on training.
           
-          • Interpret contracts and specifications to determine feasibility and advise on customer requests.
+          ●Interpret contracts and specifications to determine feasibility and advise on customer requests.
           
-          • Improve ISO controlled engineering review documentation and release multiple engineering change notices.
+          ●Improve ISO controlled engineering review documentation and release multiple engineering change notices.
           
       - layout: left
         title: REV Group
         sub_title: Mechanical Engineer II
         caption: Date Range (eg. March 2018 - April 2023)
         link: https://revgroup.com
-        quote: >
-          Vehicles For Life
+        quote:
         description: | # this will include new lines to allow paragraphs
-          • Designed over 300 ambulance exteriors across six independent brands for body fabrication.
+          ●Designed over 300 ambulance exteriors across six independent brands for body fabrication.
           
-          • Provided solutions to critical production issues through hands-on analysis of ambulances on the floor.
+          ●Provided solutions to critical production issues through hands-on analysis of ambulances on the floor.
           
-          • Reviewed final assembly release packages to ensure design quality prior to production start.
+          ●Reviewed final assembly release packages to ensure design quality prior to production start.
 
   - title: Education
     layout: list
