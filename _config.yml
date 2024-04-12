@@ -131,7 +131,8 @@ content:
         #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           One of the simplest mistakes that have large implications to production is transcription errors. With each 
-          release having up to 50 drawings, and trying to keep both the model and documentation in sync these errors were not uncommon.
+          release having up to 50 drawings and engineers trying to keep both the model and documentation in sync throughout the design process,
+          these errors were not uncommon.
           The Transmittal Review program was designed to eliminate this issue.
         description: | # this will include new lines to allow paragraphs
           ![alt text](images/TransmittalReviewTest.png "Transmittal Review")
