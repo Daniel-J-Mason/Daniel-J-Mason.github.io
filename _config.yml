@@ -58,10 +58,11 @@ additional_links:
 #   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Eager Java developer with a passion for backend development and Linux. I currently have 3 years of experience in Software
-  Development and 5 years of experience in Mechanical Engineering. I have used various languages to design and develop
-  desktop and web applications across multiple APIs, frameworks, and databases. I am seeking to transition into full time
-  software development and am confident that my experience will lead to meaningful contributions within your organization.
+  Eager Java developer with a passion for backend development and Linux. I currently have over 2 years of experience in
+  Software Development and 6 years of experience in Mechanical Engineering. I have used various languages to design and
+  develop desktop and web applications across multiple APIs, frameworks, and databases. I am seeking to transition into full
+  time software development and am confident that my experience will lead to meaningful contributions within your
+  organization.
 #  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
 #    - Tables
@@ -76,8 +77,8 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: REV Engineering Search Tool (REST)
-        link: https://github.com/Daniel-J-Mason/WindowsREST
-        link_text: https://github.com/Daniel-J-Mason/WindowsREST
+#        link: https://github.com/Daniel-J-Mason
+#        link_text: https://github.com/Daniel-J-Mason
 #        additional_links:
 #          - title:  Github page for project (eg. sproogen/modern-resume-theme)
 #            icon: fab fa-github
@@ -119,8 +120,8 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any
         # other value (or no value) means no border will be displayed
         title: Transmittal Review
-        link: https://github.com/Daniel-J-Mason/TransmittalReview
-        link_text: https://github.com/Daniel-J-Mason/TransmittalReview
+#        link: https://github.com/Daniel-J-Mason
+#        link_text: https://github.com/Daniel-J-Mason
         #        additional_links:
         #          - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #            icon: fab fa-github
@@ -130,7 +131,7 @@ content:
         #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           One of the simplest mistakes that have large implications to production is transcription errors. With each 
-          release having up to 50 drawings, keeping both the model and documentation in sync these errors were not uncommon.
+          release having up to 50 drawings, and trying to keep both the model and documentation in sync these errors were not uncommon.
           The Transmittal Review program was designed to eliminate this issue.
         description: | # this will include new lines to allow paragraphs
           ![alt text](images/TransmittalReviewTest.png "Transmittal Review")
@@ -150,11 +151,11 @@ content:
           ●Flexible transmittal structure, allowing anyone to make a structured json for the application to use to gather
           information from potential future transmittal layouts. 
           
-          ●Ability to compare CAD to excel
+          ●Ability to compare CAD to Excel
           
           ●Ability to compare CAD to CAD
 
-          ●Ability to compare excel to excel
+          ●Ability to compare Excel to Excel
           
           ●Built in hyperlinks to open any existing drawings
           
@@ -162,6 +163,9 @@ content:
           
           JavaFX; SceneBuilder; Maven; Launch4j
 
+  - title: Open Source Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any
         # other value (or no value) means no border will be displayed
@@ -205,7 +209,48 @@ content:
           <mark>Technologies utilized:</mark>
           
           Spring; Gradle; Kafka; PostgreSQL; Mybatis; Liquibase; Github; Docker
+
+      - layout: right
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Planet Nine Sessionless
+        link: https://github.com/planet-nine-app/sessionless
+        link_text: https://github.com/planet-nine-app/sessionless
+        additional_links:
+          - title: Spring Section
+            url: https://github.com/planet-nine-app/sessionless/tree/main/src/java/spring
+          - title: ReadMe for Developers
+            url: https://github.com/planet-nine-app/sessionless/blob/main/README-DEV.md
+        #        additional_links:
+        #          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #            icon: fab fa-github
+        #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #            icon: fab fa-github
+        #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Sessionless is an authentication protocol that obviates the need for a personal identifier like email,
+          and a known secret like a password.
+        description: | # this will include new lines to allow paragraphs
           
+          <mark>Summary:</mark>
+          Sessionless is an attempt to make authentication handling easier for developers and users,
+          while also enabling interesting behavior not possible with traditional sessions.
+          No emails, no passwords, and no sessions, just establish auth and get going.
+          
+          <mark>Proposed features include:</mark>
+          
+          ●Authorized account creation without requiring email
+          
+          ●Implementation of delegatable anonymous credentials. 
+          
+          ●Message Passing
+          
+          ●Device Linking
+          
+          <mark>Technologies utilized:</mark>
+          
+          Spring; Gradle; PostgreSQL; Mybatis; Liquibase; Github; Docker; Secp256k1 encryption
           
 
   - title: Experience
