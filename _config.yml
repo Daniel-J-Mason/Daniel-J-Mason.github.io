@@ -69,7 +69,6 @@ about_content: | # this will include new lines to allow paragraphs
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  -
   - title: Experience
     layout: list
     content:
