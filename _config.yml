@@ -8,7 +8,7 @@ version: 2
 
 # Personal info
 name: Daniel Mason
-title: Junior Software Engineer / Senior Mechanical Engineer
+title: Senior Mechanical Engineer
 email: daniel.j.msn@gmail.com
 # email_title: Email (Email title override)
 phone: (813)-528-6550
@@ -58,11 +58,10 @@ additional_links:
 #   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 about_profile_image: images/headshot.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Eager Java developer with a passion for backend development and Linux. I currently have over 2 years of experience in
-  Software Development and 6 years of experience in Mechanical Engineering. I have used various languages to design and
-  develop desktop and web applications across multiple APIs, frameworks, and databases. I am seeking to transition into full
-  time software development and am confident that my experience will lead to meaningful contributions within your
-  organization.
+  Experienced Mechanical Engineer with over 7 years of expertise in mechanical design and engineering, complemented by 2 years of software development experience.
+  Demonstrated success in leading complex engineering projects, mentoring junior engineers, and implementing innovative solutions through both mechanical design and custom software tools.
+  Proficient in various CAD systems and programming languages, bringing a unique blend of mechanical engineering fundamentals and modern technical solutions. 
+  Seeking to leverage my comprehensive engineering background and leadership experience to drive technical excellence and process improvement within your organization.
 #  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #    - Lists
 #    - Tables
@@ -70,7 +69,54 @@ about_content: | # this will include new lines to allow paragraphs
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
+  -
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: REV Group
+        sub_title: Senior Mechanical Engineer
+        caption: Date Range (eg. April 2023 - March 2025)
+        link: https://revgroup.com
+        quote: >
+          Vehicles For Life
+        description: | # this will include new lines to allow paragraphs
+          ●Lead responsible for the continued design and development of the ambulance Wheeled Coach brand.
+          
+          ●Designed new ambulance brand, Redimedic, from concept to build in collaboration with senior engineering staff.
+          
+          ●Revamped review process to create clear documentation of design requirements, allowing for higher quality reviews and an efficient onboarding experience for junior engineers to better understand specific design criteria.
+          
+          ●Trained/mentored several junior engineers through technical guidance, peer review, and hands-on training.
+          
+          ●Automated AutoCAD dxf generation utilizing Lisp and VBA to automatically export shelf packages to production.
+          
+          ●Revised various ISO controlled documentation to improve clarity of information.
+          
+          ●Worked with customers and dealers to generate solutions to highly customizable design criteria.
+
+      - layout: left
+        title: REV Group
+        sub_title: Mechanical Engineer II
+        caption: Date Range (eg. March 2018 - April 2023)
+        link: https://revgroup.com
+        quote:
+        description: | # this will include new lines to allow paragraphs
+          ●Interpreted contracts and specifications to determine feasibility and advise on customer requests.
+          
+          ●Provided solutions to critical production issues through hands-on analysis of ambulances on the factory floor.
+          
+          ●Reviewed final assembly release packages to ensure design quality prior to production start.
+          
+          ●Designed over 350 unique ambulance exteriors across six independent brands for body fabrication utilizing CREO.
+          
+          ●Created over 2200 assembly drawings utilizing CREO and AutoCAD to generate production packages.
+          
+          ●Designed custom Java applications to improve team productivity and design quality.
+            ◦ REV Engineering Search Tool created to easily find truck files, drawings, dxf’s, and contracts in one place.
+            ◦ Transmittal Review software to automate the comparison of release packages to CREO models.
+
+  - title: Professional Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -253,38 +299,6 @@ content:
           
           Spring; Gradle; PostgreSQL; Mybatis; Liquibase; Github; Docker; Secp256k1 encryption
           
-
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: REV Group
-        sub_title: Senior Mechanical Engineer
-        caption: Date Range (eg. April 2023 - present)
-        link: https://revgroup.com
-        quote: >
-          Vehicles For Life
-        description: | # this will include new lines to allow paragraphs
-          ●Lead responsible for the continued design and development of the ambulance Wheeled Coach brand.
-          
-          ●Train/mentor several junior engineers through technical guidance, peer review, and hands-on training.
-          
-          ●Interpret contracts and specifications to determine feasibility and advise on customer requests.
-          
-          ●Improve ISO controlled engineering review documentation and release multiple engineering change notices.
-          
-      - layout: left
-        title: REV Group
-        sub_title: Mechanical Engineer II
-        caption: Date Range (eg. March 2018 - April 2023)
-        link: https://revgroup.com
-        quote:
-        description: | # this will include new lines to allow paragraphs
-          ●Designed over 300 ambulance exteriors across six independent brands for body fabrication.
-          
-          ●Provided solutions to critical production issues through hands-on analysis of ambulances on the floor.
-          
-          ●Reviewed final assembly release packages to ensure design quality prior to production start.
 
   - title: Education
     layout: list
