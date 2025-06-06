@@ -72,7 +72,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: REV Group
         sub_title: Senior Mechanical Engineer
         caption: Date Range (eg. April 2023 - March 2025)
@@ -94,7 +94,7 @@ content:
           
           ●Worked with customers and dealers to generate solutions to highly customizable design criteria.
 
-      - layout: left
+      - layout: right
         title: REV Group
         sub_title: Mechanical Engineer II
         caption: Date Range (eg. March 2018 - April 2023)
@@ -302,7 +302,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: University of Central Florida
         sub_title: Bachelor of Science Mechanical Engineering
         caption: 2013 - 2017
